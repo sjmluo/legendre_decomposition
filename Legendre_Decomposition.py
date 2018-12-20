@@ -147,6 +147,7 @@ class legendre_decomposition:
         None
         
         Returns:
+        --------
         eta_mat: numpy.ndarray
             Returns a matrix of eta, the expectation parameter.
         """
