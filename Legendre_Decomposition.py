@@ -91,7 +91,7 @@ class legendre_decomposition:
             print('gradient:\n', np.around(gradient, 3))
             print('theta:\n', np.around(self.theta_mat, 3))
             print('np.exp(theta):\n', np.around(np.exp(self.theta_mat), 3))
-            print('P:\n', np.around(P, 3))
+            print('P:\n', np.around(self.P, 3))
             print('Q:\n', np.around(self.reconstruct(), 3))
             print('total error:', np.around(np.sum(gradient**2)**0.5, 3))
             print('============================================')
